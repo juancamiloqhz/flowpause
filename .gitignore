@@ -1,0 +1,10 @@
+# Local editor and operating-system files
+.DS_Store
+*.swp
+*.swo
+
+# Generated test and measurement output
+coverage/
+build/
+dist/
+tmp/
