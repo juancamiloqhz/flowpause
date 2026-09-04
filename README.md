@@ -29,6 +29,14 @@ The initial design excludes a separate daemon, a second Quickshell process, netw
 
 Development instructions will be added with the first runnable spike. The plugin will target the current Omarchy 4 / Quattro contract and use the permanent plugin ID `io.github.juancamiloqhz.flowpause`.
 
+The repository is self-contained for product implementation:
+
+- [Domain language](CONTEXT.md)
+- [Public product contract](docs/product-contract.md)
+- [Architecture decisions](docs/adr/)
+- [Performance and shell-safety contract](docs/performance-contract.md)
+- [Engineering workflow conventions](docs/agents/)
+
 Relevant platform references:
 
 - [Omarchy plugin development guide](https://plugins.omarchy.org/develop.html)

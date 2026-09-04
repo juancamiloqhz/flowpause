@@ -4,6 +4,15 @@
 
 This public repository owns the FlowPause Omarchy plugin, its tests, implementation documentation, and release material. FlowPause is a respectful, lightweight break companion for Omarchy 4 / Quattro. Its permanent plugin ID is `io.github.juancamiloqhz.flowpause`.
 
+## Sources of truth
+
+- Read `CONTEXT.md` before naming or changing domain concepts.
+- Read `docs/product-contract.md` before changing user-visible behavior, product scope, or claims.
+- Read `docs/adr/` before changing architecture or host-integration boundaries.
+- Read `docs/performance-contract.md` before changing scheduling, persistence, background activity, or UI lifecycle behavior.
+- Use GitHub Issues for executable specifications and acceptance criteria.
+- Keep this repository sufficient for implementation. Do not make product work depend on unpublished or private documentation.
+
 ## Public boundary
 
 - Keep this repository self-contained and safe for public release.
