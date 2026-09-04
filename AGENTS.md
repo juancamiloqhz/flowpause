@@ -43,3 +43,17 @@ This public repository owns the FlowPause Omarchy plugin, its tests, implementat
 - Keep the manifest ID stable once published; third-party IDs must not use the reserved `omarchy.*` namespace.
 - Marketplace submission is a separate owner-approved release action. Before submission, verify the public README, root license, dependencies, installation/removal behavior, preview ownership, exact plugin ID, and the marketplace's current requirements.
 - Run Git commands from this repository for product changes. Do not combine private coordination-workspace files with product commits.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specifications are tracked in GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The repository uses the five default triage workflow labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This is a single-context repository. See `docs/agents/domain.md`.
